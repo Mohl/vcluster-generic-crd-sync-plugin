@@ -7,10 +7,10 @@ Prerequisite for installation are the Prometheus CRDs installed in the host clus
 
 
 To install this plugin you need to pass the ./plugin.yaml file as additional source of Helm values during the installation. This is described in more detail in vcluster docs - https://www.vcluster.com/docs/plugins/overview#loading-and-installing-plugins-to-vcluster  
-For testing purposes you can refer to the plugin.yaml for the Prometheus Operator resources like so: `https://raw.githubusercontent.com/loft-sh/vcluster-generic-crd-sync-plugin/main/crds/prometheus-operator/plugin.yaml`.  
+For testing purposes you can refer to the plugin.yaml for the Prometheus Operator resources like so: `https://raw.githubusercontent.com/loft-sh/vcluster-generic-crd-sync-plugin/main/examples/prometheus-operator/plugin.yaml`.  
 Example installation command:
 ```
-vcluster create -n vcluster vcluster -f https://raw.githubusercontent.com/loft-sh/vcluster-generic-crd-sync-plugin/main/crds/prometheus-operator/plugin.yaml
+vcluster create -n vcluster vcluster -f https://raw.githubusercontent.com/loft-sh/vcluster-generic-crd-sync-plugin/main/examples/prometheus-operator/plugin.yaml
 ```
 
 
